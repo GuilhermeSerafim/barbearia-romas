@@ -254,21 +254,21 @@ p {
     text-align: left;
 }
 
-.contato {
+.localizacao {
     padding: 50px 0px;
     background-color: var(--bege);
     text-align: center;
     margin-top: 60px;
 }
 
-.contato h2 {
+.localizacao h2 {
     font-size: 32px;
     font-family: var(--fonte-titulo);
     color: var(--bordo);
     margin-bottom: 40px;
 }
 
-.titulo-contato {
+.titulo-localizacao {
     display: flex;
     align-items: center;
     justify-content: center;

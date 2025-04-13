@@ -168,3 +168,37 @@ p {
     font-weight: bold;
     color: var(--bege);
 }
+
+.quem-somos {
+    padding: 100px 20px;
+    background-color: var(--bege);
+  }
+  
+  .quem-somos h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: var(--fonte-titulo);
+    color: var(--bordo);
+    margin-bottom: 40px;
+  }
+  
+  .quem-somos-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .quem-somos-content .texto {
+    max-width: 500px;
+    text-align: justify;
+    line-height: 1.7;
+  }
+  
+  .quem-somos-content img {
+    width: 400px;
+  }
+  

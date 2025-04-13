@@ -2,6 +2,7 @@ body {
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-style: normal;
+    background-color: var(--bege);
 }
 
 h1 {
@@ -24,6 +25,7 @@ p {
     font-weight: 400;
 }
 
+/* HEADER */
 .navbar {
     background-color: #060704;
     position: fixed;
@@ -58,10 +60,13 @@ p {
     width: 100px;
 }
 
+
+/* MAIN */
 .hero {
     width: 100%;
     height: 100vh;
     background-image: url('../img/hero.jpg');
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,4 +118,53 @@ p {
     50% {
         transform: translateY(10px);
     }
+}
+
+.servicos {
+    height: 50vh;
+    padding: 100px 20px;
+    background-color: var(--bege);
+    text-align: center;
+}
+
+.servicos h2 {
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 220px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: var(--bege);
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--bege);
 }

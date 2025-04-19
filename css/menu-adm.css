@@ -120,7 +120,13 @@ display: inline-block: faz do botão um bloco “inline”, permitindo largura/a
     text-transform: uppercase;
     width: 132px;
     height: 42px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.info-agendamentos button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
 
 .info-agendamentos button::before {
     content: "";
@@ -199,6 +205,13 @@ display: inline-block: faz do botão um bloco “inline”, permitindo largura/a
     text-transform: uppercase;
     width: 132px;
     height: 42px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.info-galeria button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info-galeria button::before {

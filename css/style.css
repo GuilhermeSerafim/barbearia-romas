@@ -199,7 +199,10 @@ p {
 .quem-somos-content .texto {
     max-width: 500px;
     text-align: justify;
-    line-height: 1.7;
+    line-height: 135.938%;
+    font-size: 18px;
+    width: 468px;
+    height: 311px;
 }
 
 .quem-somos-content img {
@@ -247,6 +250,7 @@ p {
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+    border-radius: 4px;
     transition: transform 0.3s;
 }
 
@@ -256,9 +260,9 @@ p {
 
 .galeria-item p {
     font-size: 14px;
-    color: var(--preto);
+    color: #000;
     line-height: 1.5;
-    text-align: left;
+    text-align: justify;
 }
 
 .localizacao {

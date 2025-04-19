@@ -1,0 +1,83 @@
+/* CORE */
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--bege);
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: var(--bordo);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* HEADER */
+.navbar {
+    background-color: #060704;
+    position: fixed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 10px 0;
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+
+.navbar nav ul li a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #7A1C1C;
+    /* bordô */
+}
+
+.navbar .logo img {
+    width: 100px;
+}
+
+.container-bg {
+    display: flex;
+    width: 1921px;
+    height: 557px;
+    flex-shrink: 0;
+    aspect-ratio: 1921/557;
+    background-image: url(../img/bg_agendamentos.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.container-bg h1 {
+    color: #000;
+    text-align: center;
+    font-family: Lobster;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

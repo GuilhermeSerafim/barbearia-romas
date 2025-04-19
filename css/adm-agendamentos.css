@@ -123,7 +123,7 @@ p {
     vertical-align: middle;
     /* Alinha verticalmente ao centro */
     padding: 8px;
-    height: 40px;
+    height: 20.417px;
     font-family: var(--fonte-titulo);
     border-bottom: 2px solid var(--var-primary, #080704);
     background: var(--var-secondary, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #6D1817);
@@ -166,35 +166,53 @@ p {
 }
 
 /* Botão de ação */
-.btn-delete, .btn-alterar {
+.btn-delete,
+.btn-alterar {
     background: none;
     border: none;
     padding: 4px;
     cursor: pointer;
     transition: filter 0.3s ease;
     position: relative;
-    z-index: 1;   
+    z-index: 1;
 }
 
 .btn-delete::before,
 .btn-alterar::before {
-  content: "";
-  position: absolute;
-  top: 50%; left: 50%;
-  width: 40px; height: 40px;
-  /* cor bordô com 15% de opacidade */
-  background: rgba(109, 24, 23, 0.15);
-  border-radius: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  filter: blur(4px);            /* espalha o círculo */
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    /* cor bordô com 15% de opacidade */
+    background: rgba(109, 24, 23, 0.15);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    filter: blur(4px);
+    /* espalha o círculo */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: -1;
 }
 
 .btn-delete:hover::before,
 .btn-alterar:hover::before {
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 1;                   /* mantém o 0.15 do RGBA, você pode remover esta linha */
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    /* mantém o 0.15 do RGBA, você pode remover esta linha */
+}
+
+.btn-adicionar {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 5px 10px 0 0;
+    transition: transform 0.3s ease, fill 0.3s ease;
+
+}
+
+.btn-adicionar svg:hover {
+    transform: scale(1.1);
 }
 
 .footer {

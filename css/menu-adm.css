@@ -80,7 +80,7 @@ p {
     transform: scale(1.05);
 }
 
-.info h1 {
+.info-galeria h1 {
     color: var(--bordo);
     font-size: 32px;
     font-style: normal;
@@ -88,7 +88,7 @@ p {
     line-height: normal;
 }
 
-.info p {
+.info-galeria p {
     color: #000;
     text-align: justify;
     line-height: 135.938%;
@@ -100,7 +100,7 @@ position: relative: torna o botão referência para posicionamento absoluto dos 
 
 display: inline-block: faz do botão um bloco “inline”, permitindo largura/altura/padding, mas mantendo‑o na mesma linha de elementos de texto.
 */
-.info button {
+.info-galeria button {
     position: relative;
     display: inline-block;
     padding: 12px 30px;
@@ -121,7 +121,7 @@ display: inline-block: faz do botão um bloco “inline”, permitindo largura/a
     height: 42px;
 }
 
-.info button::before {
+.info-galeria button::before {
     content: "";
     position: absolute;
     bottom: 4px;
@@ -132,7 +132,7 @@ display: inline-block: faz do botão um bloco “inline”, permitindo largura/a
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
 }
 
-.info button::after {
+.info-galeria button::after {
     content: "";
     position: absolute;
     top: 4px;

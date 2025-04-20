@@ -61,6 +61,25 @@ p {
     width: 100px;
 }
 
+.voltar button {
+    background-color: transparent;
+    border: 2px solid #FBF8EE;
+    color: #FBF8EE;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.voltar button:hover {
+    background-color: #6D1817;
+    color: #FBF8EE;
+    transform: scale(1.1);
+}
+
 /* MAIN */
 /* AGENDAMENTOS */
 .container-agendamentos {
@@ -126,7 +145,7 @@ display: inline-block: faz do botão um bloco “inline”, permitindo largura/a
 .info-agendamentos button:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+}
 
 .info-agendamentos button::before {
     content: "";
@@ -210,8 +229,8 @@ display: inline-block: faz do botão um bloco “inline”, permitindo largura/a
 }
 
 .info-galeria button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info-galeria button::before {

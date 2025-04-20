@@ -67,7 +67,7 @@ p {
     height: 557px;
     flex-shrink: 0;
     aspect-ratio: 1921/557;
-    background-image: url(../img/bg_agendamentos.png);
+    background-image: url(../../img/bg_agendamentos.png);
     align-items: center;
     justify-content: center;
 }
@@ -81,6 +81,28 @@ p {
     font-weight: 400;
     line-height: normal;
 }
+
+.voltar button {
+    background-color: transparent;
+    border: 2px solid #FBF8EE;
+    color: #FBF8EE;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.voltar button:hover {
+    background-color: #6D1817;
+    color: #FBF8EE;
+    transform: scale(1.1);
+}
+
+/* MAIN */
+
 
 /* 1) container que centraliza horizontalmente a área de tabela */
 .container-datagrid {

@@ -61,13 +61,33 @@ p {
     width: 100px;
 }
 
+.voltar button {
+    background-color: transparent;
+    border: 2px solid #FBF8EE;
+    color: #FBF8EE;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.voltar button:hover {
+    background-color: #6D1817;
+    color: #FBF8EE;
+    transform: scale(1.1);
+}
+
+
 .container-bg {
     display: flex;
     width: 1921px;
     height: 557px;
     flex-shrink: 0;
     aspect-ratio: 1921/557;
-    background-image: url(../img/bg_galeria.png);
+    background-image: url(../../img/bg_galeria.png);
     align-items: center;
     justify-content: center;
 }

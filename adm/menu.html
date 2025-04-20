@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Romas</title>
+    <title>Barbearia Romas - Menu</title>
     <link rel="icon" href="../img/logo1.png" type="image/png" />
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/vars.css">
-    <link rel="stylesheet" href="../css/adm-menu.css">
+    <link rel="stylesheet" href="../css/adm/menu.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,11 @@
     <header class="navbar">
         <nav>
             <ul>
-
+                <li class="voltar">
+                    <button onclick="history.back()" title="Voltar">
+                        ←
+                    </button>
+                </li>
                 <li class="logo">
                     <img src="../img/logo2.png" alt="Logo Romas">
                 </li>
@@ -36,7 +40,7 @@
             <div class="info-agendamentos">
                 <h1 class="info-agendamentos-item">AGENDAMENTOS</h1>
                 <p class="info-agendamentos-item">Organize os horários, serviços e barbeiros. Tudo em um só lugar.</p>
-                <button class="info-agendamentos-item">ENTRAR</button>
+                <button class="info-agendamentos-item" onclick="window.location.href='./adm-agendamentos.html'">ENTRAR</button>
             </div>
         </div>
         <div class="container-galeria">
@@ -44,7 +48,7 @@
             <div class="info-galeria">
                 <h1 class="info-galeria-item">GALERIA</h1>
                 <p class="info-galeria-item">Organize os horários, serviços e barbeiros. Tudo em um só lugar.</p>
-                <button class="info-galeria-item">ENTRAR</button>
+                <button class="info-galeria-item" onclick="window.location.href='./galeria.html'">ENTRAR</button>
             </div>
         </div>
 

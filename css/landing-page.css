@@ -146,7 +146,7 @@ p {
     background-color: var(--preto);
     color: var(--branco);
     padding: 30px 20px;
-    border-radius: 8px;
+    border-radius: 4px;
     width: 220px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
     transition: transform 0.3s;
@@ -199,7 +199,10 @@ p {
 .quem-somos-content .texto {
     max-width: 500px;
     text-align: justify;
-    line-height: 1.7;
+    line-height: 135.938%;
+    font-size: 18px;
+    width: 468px;
+    height: 311px;
 }
 
 .quem-somos-content img {
@@ -245,9 +248,9 @@ p {
 
 .galeria-item img {
     width: 100%;
-    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+    border-radius: 4px;
     transition: transform 0.3s;
 }
 
@@ -257,9 +260,9 @@ p {
 
 .galeria-item p {
     font-size: 14px;
-    color: var(--preto);
+    color: #000;
     line-height: 1.5;
-    text-align: left;
+    text-align: justify;
 }
 
 .localizacao {

@@ -22,10 +22,4 @@ Sistema de landing page + área administrativa para gerenciamento de galeria de 
 - CRUD de **Agendamentos** (cliente, serviço, barbeiro, data)
 
 ## 🛠️ Tecnologias
-- HTML, CSS, JS
-- JSON Server (mock API)
-- Deploy: Vercel
-
----
-
-> Projeto em desenvolvimento. Novas funcionalidades serão adicionadas em breve.
+- HTML, CSS e Figma 

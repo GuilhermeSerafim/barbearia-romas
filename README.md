@@ -2,6 +2,8 @@
 
 Sistema de landing page + área administrativa para gerenciamento de galeria de estilos e agendamentos.
 
+> 📌 Este projeto é uma evolução em Angular de uma versão anterior em [HTML/CSS](https://github.com/GuilhermeSerafim/barbearia-romas).
+
 ## 🚀 Acesso à produção
 
 🔗 [barbearia-romas.vercel.app](https://barbearia-romas.vercel.app/)

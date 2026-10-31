@@ -1,6 +1,6 @@
 # 💈 Barbearia ROMAS
 
-Sistema de landing page + área administrativa para gerenciamento de galeria de estilos e agendamentos.
+Protótipo em HTML/CSS de landing page e telas administrativas para galeria de estilos e agendamentos.
 
 > 📌 Este projeto foi a base inicial para a nova versão desenvolvida em [Angular](https://github.com/GuilhermeSerafim/barbearia-romas-angular).  
 
@@ -16,9 +16,13 @@ Sistema de landing page + área administrativa para gerenciamento de galeria de 
 - Design moderno com identidade visual premium
 
 ### 🔐 Área Administrativa
-- Login protegido para administradores
-- CRUD de **Galeria de Estilos** (imagens, descrição, cliente)
-- CRUD de **Agendamentos** (cliente, serviço, barbeiro, data)
+- Tela visual de login: o botão Entrar apenas navega para o menu; não autentica o usuário.
+- Telas de **Galeria de Estilos**, como parte do protótipo administrativo.
+- Tela de **Agendamentos** com tabela estática e botões visuais; não é CRUD persistente.
 
 ## 🛠️ Tecnologias
 - HTML, CSS e Figma 
+
+## Escopo e autoria
+
+Esta é a etapa inicial de interface, sem controle de acesso ou backend de gestão. As páginas administrativas creditam **Guilherme e Kayky**.
